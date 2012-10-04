@@ -1,0 +1,15 @@
+/* Splash Page */
+.splash {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 428px;
+   height: 343px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+
+/* Global */ 
+html {
+	background-color: black;
+}
