@@ -1,3 +1,14 @@
+// TODO
+// Table width for schedule needs to be widen
+
+
+/* Global */
+html {
+  width: 960px;
+  margin: 0 auto;
+  color: yellow;
+}
+
 body {
   background: black; 
   color: yellow;
@@ -5,30 +16,58 @@ body {
   margin: 40px auto;
   max-width: 61.75em;
 }
+
+/* Splash Page */
+#splash {
+  display: block;
+  width: 599px;
+  margin: 0 auto;
+}
+
+#splash p#continue {width: 406px; margin: 0 auto; }
+
 article {
   float: right;
   width: 70.85%;
 }
+
 article .quote {
   text-align: justify;
 }
+
 article .author_quote {
   float: right;
   font-style: italic;
 }
+
 article.gallery img{
   margin: 5px;
   width: 15%;
 }
+
 article .home_img {
   display: block;
   text-align: center;
 }
+
 nav {
   float: left;
   width: 29.14%;
   font-size: 0.75em;
 }
+nav ul a{ color: yellow; text-decoration: none;}
 nav li {
   list-style: none;
+}
+
+
+/* Schedule */
+table .tdbold {font-weight:bold;}
+table a {color: yellow; font-size: 0.75em; }
+
+/* Location */
+#gmaps-img {
+  width: 625px;
+  height: 350px;
+  margin; 0 auto;
 }
