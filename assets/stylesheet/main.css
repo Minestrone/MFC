@@ -41,7 +41,7 @@ footer {
   margin: 0 auto;
   float: right;
 }
-footer ul { padding: 0 0 0 0; }
+footer ul { padding: 0 0 10px 0; }
 footer ul li { border-right: 1px solid #FFD300; float:left; list-style:none;padding: 0 5px; }
 footer ul li:last-child { border-right: none}
 footer ul a{ color: yellow; text-decoration: none;}
