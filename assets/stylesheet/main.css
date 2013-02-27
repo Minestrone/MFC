@@ -1,5 +1,8 @@
 /* Global */
 html {
+  font-family: droid-sans, Verdana, Helvetica;
+  font-weight: 400;
+  font-style: normal;
   width: 960px;
   margin: 0 auto;
   color: yellow;
@@ -8,7 +11,6 @@ html {
 body {
   background: black; 
   color: yellow;
-  font: normal 100% Helvetica, Arial, sans-serif;
   margin: 40px auto;
   max-width: 61.75em;
 }
@@ -33,12 +35,12 @@ nav li {
 }
 footer { 
   position: relative; 
-  width: 649px; 
+  width: 792px; 
   height: 1.5em; 
   margin: -150px auto 0 auto;
-  padding: 0 0 0 230px;
+  padding: 0 0 0 275px;
 }
-footer ul li { float:left; list-style:none;padding: 0 20px; }
+footer ul li { float:left; list-style:none;padding: 0 10px; }
 footer ul a{ color: yellow; text-decoration: none;}
 footer ul a:hover{ color: #FFD300; text-decoration: none;}
 
