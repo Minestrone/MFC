@@ -1,7 +1,3 @@
-// TODO
-// Table width for schedule needs to be widen
-
-
 /* Global */
 html {
   width: 960px;
@@ -17,6 +13,25 @@ body {
   max-width: 61.75em;
 }
 
+article {
+  float: right;
+  width: 70.85%;
+}
+
+nav {
+  float: left;
+  width: 29.14%;
+  font-size: 0.75em;
+}
+
+nav ul a{ color: yellow; text-decoration: none;}
+nav ul { padding: 0 0 0 0; } 
+nav ul a:hover{ color: #FFD300; text-decoration: none;}
+
+nav li {
+  list-style: none;
+}
+
 /* Splash Page */
 #splash {
   display: block;
@@ -26,11 +41,7 @@ body {
 
 #splash p#continue {width: 406px; margin: 0 auto; }
 
-article {
-  float: right;
-  width: 70.85%;
-}
-
+/* Home Page / Main */
 article .quote {
   text-align: justify;
 }
@@ -40,29 +51,15 @@ article .author_quote {
   font-style: italic;
 }
 
-article.gallery img{
-  margin: 5px;
-  width: 15%;
-}
-
 article .home_img {
   display: block;
   text-align: center;
 }
 
-nav {
-  float: left;
-  width: 29.14%;
-  font-size: 0.75em;
-}
-nav ul a{ color: yellow; text-decoration: none;}
-nav li {
-  list-style: none;
-}
-
 
 /* Schedule */
 table .tdbold {font-weight:bold;}
+
 table a {color: yellow; font-size: 0.75em; }
 
 /* Location */
@@ -71,3 +68,20 @@ table a {color: yellow; font-size: 0.75em; }
   height: 350px;
   margin; 0 auto;
 }
+
+/* Gallery */
+article.gallery img{
+  margin: 5px;
+  width: 15%;
+}
+
+/* Vendors */
+#vendor_list a {color: inherit; text-decoration: none;}
+#vendor_list a:hover {color: #FFD300; text-decoration: none;}
+#vendor_list li {list-style: none;}
+
+
+
+
+
+`
