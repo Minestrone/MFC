@@ -1,6 +1,6 @@
 /* Global */
 html {
-  font-family: droid-sans, Verdana, Helvetica;
+  font-family: Verdana, Helvetica;
   font-weight: 400;
   font-style: normal;
   width: 960px;
@@ -34,13 +34,16 @@ nav li {
   list-style: none;
 }
 footer { 
+  font-size: small;
   position: relative; 
-  width: 792px; 
+  width: 577px; 
   height: 1.5em; 
-  margin: -150px auto 0 auto;
-  padding: 0 0 0 275px;
+  margin: 0 auto;
+  float: right;
 }
-footer ul li { float:left; list-style:none;padding: 0 10px; }
+footer ul { padding: 0 0 0 0; }
+footer ul li { border-right: 1px solid #FFD300; float:left; list-style:none;padding: 0 5px; }
+footer ul li:last-child { border-right: none}
 footer ul a{ color: yellow; text-decoration: none;}
 footer ul a:hover{ color: #FFD300; text-decoration: none;}
 
@@ -73,8 +76,8 @@ article .home_img {
 
 
 /* Schedule */
+table { width: 719px; }
 table .tdbold {font-weight:bold;}
-
 table a {color: yellow; font-size: 0.75em; }
 
 /* Location */
