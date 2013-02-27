@@ -16,6 +16,7 @@ body {
 article {
   float: right;
   width: 70.85%;
+  padding-bottom: 150px;
 }
 
 nav {
@@ -27,11 +28,23 @@ nav {
 nav ul a{ color: yellow; text-decoration: none;}
 nav ul { padding: 0 0 0 0; } 
 nav ul a:hover{ color: #FFD300; text-decoration: none;}
-
 nav li {
   list-style: none;
 }
+footer { 
+  position: relative; 
+  width: 649px; 
+  height: 1.5em; 
+  margin: -150px auto 0 auto;
+  padding: 0 0 0 230px;
+}
+footer ul li { float:left; list-style:none;padding: 0 20px; }
+footer ul a{ color: yellow; text-decoration: none;}
+footer ul a:hover{ color: #FFD300; text-decoration: none;}
 
+#main_wrapper {min-height: 100% }
+.centered {display:inline-block; margin: 0 auto; position: relative; padding: 0 0 0 176px; }
+.clear {clear: both; }
 /* Splash Page */
 #splash {
   display: block;
@@ -64,11 +77,12 @@ table a {color: yellow; font-size: 0.75em; }
 
 /* Location */
 #gmaps-img {
-  width: 625px;
+  width: 424px;
   height: 350px;
-  margin; 0 auto;
+  margin: 0 auto;
 }
 
+#gmaps-img small a { color: inherit; }
 /* Gallery */
 article.gallery img{
   margin: 5px;
@@ -76,12 +90,7 @@ article.gallery img{
 }
 
 /* Vendors */
+#vendor_list {margin: 150px auto 0 auto; width: 180px;}
+#vendor_list ul {margin: 0 0 0 0; padding: 0 0 0 0; list-style: none;}
 #vendor_list a {color: inherit; text-decoration: none;}
 #vendor_list a:hover {color: #FFD300; text-decoration: none;}
-#vendor_list li {list-style: none;}
-
-
-
-
-
-`
